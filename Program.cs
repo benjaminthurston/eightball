@@ -41,8 +41,8 @@ namespace eightball
             };
             while (true)
             {
-                Random ans = new Random();
-                int result = ans.Next(0, 26);
+                Random rnd = new Random();
+                int result = rnd.Next(0, 26);
 
                 Console.WriteLine("The not so mighty Eight Ball awaits your question! Ask a question and hit the enter key for the answer!");
 
